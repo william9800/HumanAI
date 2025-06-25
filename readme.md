@@ -80,6 +80,33 @@ dataset.py 存储数据集的相关代码，在train.py中调用
 
 # 数据集下载指南
 
-stylegan2+stylegan3：seeprettyface.com 下载
 
-Star，FFHQ为公开数据集
+
+训练和实验结果：
+
+通过网盘分享的文件：HumanAIResult
+链接: https://pan.baidu.com/s/1VfhQXu_2NOLHnKRvTj62mg?pwd=yemn 提取码: yemn 
+
+
+
+全测试数据集（全Fake）：包括豆包生成图片，SDXl，flux，Dall-3生成的图片，以及从https://generated.photos/faces/asian-race爬取的数据集
+
+通过网盘分享的文件：TestDataset
+链接: https://pan.baidu.com/s/1YX1r9SENfLZt0T1Hmbrx1Q?pwd=w9dt 提取码: w9dt 
+
+
+
+全训练数据集：
+
+stylegan2（Fake）+stylegan（Fake）+FFHQ（Real)：seeprettyface.com 下载(http://www.seeprettyface.com/mydataset.html)
+
+Star(Real)，CelebA(Real)为公开数据集,图片数目较多，互联网中也有，因此不作分享
+
+FaceV5（Real）：公开数据集，考虑到空间，放置在自建数据集文件夹中。
+
+
+
+自建数据集，包括Lexica爬取（Fake），Unsplash爬取（Real），StableDiffusion利用8个不同检查点生成（Fake），Thispersondonotexist网站爬取（Fake）：
+
+通过网盘分享的文件：SelfBuiltDatasets.zip
+链接: https://pan.baidu.com/s/13JLYdWEdDiHblSy3zO2mRg?pwd=4gbv 提取码: 4gbv 
